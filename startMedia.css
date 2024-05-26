@@ -1,0 +1,263 @@
+@media screen and (max-width: 1589px) {
+    header{
+        padding: .5rem;
+    }
+
+    .oral_div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1408px) {
+    header{
+        grid-template-columns: 20% 70%;
+    }
+
+    .image_div > img{
+        width: 9rem;
+        min-width: 8rem;
+    }
+    
+    .schoolName_div > h1 {
+        font-size: 3.3rem;
+    }
+
+    .welcome_div > h3{
+        font-size: 2.6rem;
+    }
+
+    .welcome_div > p{
+        font-size: 1.4rem;
+    }
+
+    .oral_div > div > h3{
+        font-size: 1.8rem;
+    }
+    
+    .oral_div > div > p{
+        font-size: 1.3rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 1324px) {
+    header{
+        grid-template-columns: 15% 85%;
+        place-items: center;
+    }
+
+    .oral_div{
+        width: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 1125px) {
+    header{
+        padding: .3rem;
+    }
+
+    .image_div > img{
+        width: 5rem;
+    }
+
+    .schoolName_div > h1 {
+        font-size: 2.8rem;
+    }
+
+    .welcome_div > h3{
+        font-size: 2.5rem;
+    }
+
+    .welcome_div > p{
+        font-size: 1.3rem;
+    }
+
+    .oral_div > div > h3{
+        font-size: 1.7rem;
+    }
+    
+    .oral_div > div > p{
+        font-size: 1.2rem;
+    }
+
+    .button_div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 966px) {
+    header{
+        padding: .1rem;
+        grid-template-columns: 12% 88%;
+    }
+
+    .image_div > img{
+        min-width: 6.5rem;
+    }
+
+    .schoolName_div > h1 {
+        font-size: 2.6rem;
+    }
+
+    .dark-layer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8rem;
+    }
+
+    .welcome_div > h3{
+        font-size: 2.3rem;
+    }
+
+    .welcome_div > p{
+        font-size: 1.2rem;
+    }
+
+    .button_div > form > button{
+        font-size: .8rem;
+    }
+
+    .oral_div{
+        margin-top: 2rem;
+        width: 61%;
+    }
+    
+}
+
+@media screen and (max-width: 874px) {
+    .image_div > img{
+        min-width: 6.2rem;
+    }
+
+    .schoolName_div > h1 {
+        font-size: 2.3rem;
+    }
+    
+    .welcome_div > h3{
+        font-size: 2.1rem;
+    }
+
+    .welcome_div > p{
+        font-size: 1.1rem;
+    }
+
+    .oral_div > div > h3{
+        font-size: 1.6rem;
+    }
+    
+    .oral_div > div > p{
+        font-size: 1.1rem;
+    }
+
+    .oral_div{
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 782px) {
+    header{
+        padding: .1rem;
+        grid-template-columns: 14% 86%;
+    }
+
+    .image_div > img{
+        min-width: 6.2rem;
+    }
+
+    .schoolName_div > h1 {
+        font-size: 2.3rem;
+        display: none;
+    }
+
+    .welcome_div{
+        margin-top: 3rem;
+    }
+
+    .dark-layer{
+        padding-bottom: 6.5rem;
+    }
+
+    .oral_div{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    header{
+        padding: .1rem;
+        grid-template-columns: 1fr;
+        place-items: start;
+    }
+
+
+    .oral_div > div {
+        display: none;
+    }
+
+    .welcome_div{
+        margin-top: 12rem;
+        gap: .7rem;
+    }
+
+    .dark-layer{
+        padding-bottom: 17rem;
+    }
+
+    .welcome_div > p{
+        font-size: 1.3rem;
+    }
+
+    .button_div{
+        margin-top: 1rem;
+    }
+
+    .button_div > form > button{
+        font-size:.9rem;
+    }
+
+    .button_div{
+        flex-wrap: wrap;
+    }
+
+    .welcome_div > h3{
+        text-align: center;
+    }
+
+    #button1{
+        padding: 1.1rem 2.7rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .dark-layer{
+        padding-bottom: 19.3rem;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    .image_div > img{
+        min-width: 5rem;
+    }
+
+    .button_div{
+        flex-wrap: wrap;
+    }
+
+    .welcome_div{
+        margin-top: 10rem;
+    }
+
+    .welcome_div > h3{
+        font-size: 1.9rem;
+    }
+
+    .welcome_div > p{
+        font-size: 1.2rem;
+    }
+
+}

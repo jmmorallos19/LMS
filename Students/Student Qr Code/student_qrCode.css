@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin : 0;
+    display:flex;
+}
+
+nav{
+    background-color: #000058;
+    width: 20%;
+    height: 100vh;
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 9px -22px 33px -60px rgba(0,0,0,0.3),
+    6px 6px 12px 0px rgba(0,0,0,0.22);
+    position: fixed;
+    
+}
+
+#icc{
+    width:120px;
+    height:120px;
+    margin-bottom:50px;
+    border-radius:50%;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    transition:0.1s;
+    font-weight: bold;
+}
+
+a:hover{
+    color:rgb(255, 200, 0);
+}
+
+#logout:hover{
+    background:red;
+    color: white;
+}
+
+.menu-item.active {
+    color:rgb(255, 200, 0);
+    font-size:1.6rem;
+}
+
+#active{
+    color:rgb(255, 200, 0);
+    font-size: clamp(1.5rem, 1.4vw, 6rem);
+}
+
+.container{
+    margin-left:20%;
+    width:80vw;
+    height: 100vh;
+    background: rgb(231, 231, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.qrCode_div{
+    background-color: #0070f3;
+    width: 50%;
+    padding: 2rem 3rem 6rem;
+    border-radius: 20px;
+    box-shadow: -5px 5px 42px -9px rgba(0,0,0,0.3),
+    1px -4px 17px 9px rgba(0,0,0,0.22);
+}
+
+.qrCode_div > h2{
+    color: #fff;
+    font-size: clamp(1rem, 2.2vw, 3.5rem);
+    font-weight: 700;
+    letter-spacing: .1rem;
+    margin-bottom: 0;
+}
+
+.qrCode_div > p {
+    color: #fff;
+    font-size: clamp(.8rem, 1.7vw, 2rem);
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.first_layer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_layer > div{
+    width: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.first_layer > div > img{
+    width: 100%;
+}

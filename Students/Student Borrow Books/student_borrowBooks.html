@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrow Books</title>
+    <link rel="stylesheet" href="student_borrowBooks.css">
+</head>
+<body>
+    <nav>
+        <img src="icc.jpg" alt="Error">
+
+        <a href="C:\Users\ADMIN\Documents\LIBRARY MANAGEMENT SYSTEM\Students\Student Dashboard\student_dashboard.html" class="menu-item">Dashboard</a>
+        <a href="C:\Users\ADMIN\Documents\LIBRARY MANAGEMENT SYSTEM\Students\Student Profile\student_profile.html" class="menu-item">Profile</a>
+        <a href="C:\Users\ADMIN\Documents\LIBRARY MANAGEMENT SYSTEM\Students\Student Borrow Books\student_borrowBooks.html" class="menu-item" id="active">Borrow Books</a>
+        <a href="C:\Users\ADMIN\Documents\LIBRARY MANAGEMENT SYSTEM\Students\Student Return Books\student_returnBooks.html" class="menu-item">Return Books</a>
+        <a href="C:\Users\ADMIN\Documents\LIBRARY MANAGEMENT SYSTEM\Students\Student Qr Code\student_qrCode.html" class="menu-item">Qr Code</a>
+        <a href="C:\Users\ADMIN\Documents\LIBRARY MANAGEMENT SYSTEM\Students\Student LogIn\student_login.html" class="menu-item" id="logout">Log Out</a>
+    </nav>
+
+    <div class="container">
+        <div class="borrow_container">
+            <h2>Borrowing</h2>
+
+            <div class="input_div">
+                <div>
+                    <p>Book Title:</p>
+                    <input type="text" id="input_1">
+                </div>
+
+                <div>
+                    <p>Book ID:</p>
+                    <input type="text" id="input_2">
+                </div>
+
+                <div>
+                    <p>Book Author:</p>
+                    <input type="text" id="input_3">
+                </div>
+                
+                <div>
+                    <p>Current Date:</p>
+                    <input type="date" id="input_4">
+                </div>
+
+                <div>
+                    <p>Return Date:</p>
+                    <input type="date" id="input_5">
+                </div>
+            </div>
+
+            <button>Borrow</button>
+        </div>
+    </div>
+
+
+    <script src="student_borrowBooks.js"></script>
+</body>
+</html>
